@@ -1,0 +1,37 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  background: #2f363e;
+  font-size: 40px;
+}
+#digiClock{
+  float:right;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin: 1rem 0;
+}
+#digiClock .item{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border: 0.15rem solid #1a1b1b;
+  border-radius: 100%;
+  margin: 1rem .5rem;
+  font-size:1rem;
+  line-height: 1.5%;
+  color: #fff;
+}
+.dot{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 100%;
+  background: #f8e90c;
+}
